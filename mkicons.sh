@@ -19,7 +19,9 @@ do
 	fi
 	SIZE="${TARGET}x${TARGET}"
 	SIZE2X="$((TARGET*2))x$((TARGET*2))"
+	SIZE3X="$((TARGET*3))x$((TARGET*3))"
 
 	run_convert $1 ${SIZE} icon${NAME}.png
 	run_convert $1 ${SIZE2X} icon${NAME}@2x.png
+	run_convert $1 ${SIZE3X} icon${NAME}@3x.png
 done

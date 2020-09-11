@@ -6,7 +6,7 @@ function run_convert()
 	convert $1 -resize $2 $3
 }
 
-for TARGET in 57 60 72 76 29 40 50
+for TARGET in 57 60 72 76 29 40 50 167
 do
 	if [ ${TARGET} -eq 57 ]
 	then
